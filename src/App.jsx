@@ -2,7 +2,8 @@ import './App.css';
 import {BrowserRouter as Router, Route, Redirect, Routes} from "react-router-dom";
 
 // components
-import { Header } from './components/Header';
+import { Header } from './components/Header/Header';
+import { Footer } from './components/Footer/Footer'
 import Home from './pages/Home';
 import Signup from './pages/Signup';
 import Login from './pages/Login'
@@ -19,6 +20,7 @@ function App() {
           <Route exact path='/login' Component={Login}/>
         </Routes>
       </Router>
+      <Footer />
     </div>
   );
 }

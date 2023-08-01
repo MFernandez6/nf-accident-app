@@ -1,4 +1,4 @@
-# No-Fault Appcident
+# ClaimSaver+
 # Accident Form Filing and Recovery App
 
 ## Introduction
@@ -15,15 +15,8 @@ Accident Form Filing and Recovery App is a user-friendly mobile application that
 
 5. **Recovery Assistance:** The app not only facilitates filing accident forms but also assists clients in the recovery process. Attorneys within the network will work diligently to negotiate with insurance companies and other involved parties to ensure fair compensation for medical expenses, property damage, lost wages, and other applicable damages.
 
-## Installation
-To install No-Fault Appcident, follow these simple steps:
-1. Visit the Website App Store, or Google Play Store.
-2. Search for "No-Fault Appcident"
-3. Click on the "Install" button.
-4. Once the installation is complete, open the app and follow the on-screen instructions to set up your account.
-
 ## Support and Contact
 For any inquiries, assistance, or feedback regarding the Accident Form Filing and Recovery App, please reach out to our support team at [fernandezinvestmentfirm@gmail.com]. We highly value user feedback and continuously strive to enhance our app to meet your needs effectively.
 
 ## Conclusion
-No-Fault Appcident provides clients with a convenient platform to file no-fault accident forms and receive professional legal assistance throughout their recovery process. With its user-friendly interface, attorney matching capabilities, secure document management, and real-time case updates, this app aims to streamline the legal journey for accident victims nationwide.
+ClaimSaver+ provides clients with a convenient platform to file no-fault accident forms and receive professional legal assistance throughout their recovery process. With its user-friendly interface, attorney matching capabilities, secure document management, and real-time case updates, this app aims to streamline the legal journey for accident victims nationwide.

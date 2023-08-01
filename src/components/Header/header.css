@@ -1,0 +1,17 @@
+.logo {
+    width: 50;
+    height: 75px;
+    padding-left: 18%;
+    transform: scale(5);
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #FAF9F6, #1035ac);
+    width: 100%;
+    font-size: 18px;
+    position: sticky;
+}
+
+.nav-link {
+    color: #FAF9F6;
+}

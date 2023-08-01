@@ -1,0 +1,26 @@
+.social-media {
+    background-image: linear-gradient(to bottom, #FAF9F6, #1035ac);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.copyright {
+    padding-top: 25px;
+    color: #FAF9F6;
+}
+
+.social-media-icons {
+    padding-top: 5px;
+    padding-bottom: 20px;
+    margin: 5px
+}
+
+h6 {
+    font-size: 18px;
+}
+
+.social-icon {
+    margin: 10px;
+}
