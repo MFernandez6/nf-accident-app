@@ -3,10 +3,11 @@ import {BrowserRouter as Router, Route, Redirect, Routes} from "react-router-dom
 
 // components
 import { Header } from './components/Header/Header';
-import { Footer } from './components/Footer/Footer'
+import {Footer} from './components/Footer/Footer';
 import Home from './pages/Home';
 import Signup from './pages/Signup';
 import Login from './pages/Login'
+import { Banner } from './components/Banner/Banner';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <div>
       <Router>
       <Header/>
+      <Banner/>
         <Routes>
           <Route exact path='/' Component={Home}/>
           <Route exact path='/signup' Component={Signup}/>

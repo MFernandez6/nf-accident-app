@@ -1,0 +1,27 @@
+h1 { 
+    text-align: center;
+    color: black;
+    padding: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    position: relative;
+    background: linear-gradient(to right, silver, whitesmoke, silver);
+    
+    margin: 15px;
+    width: 100%;
+    padding: 10px;
+}
+
+
+.image-container {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: auto;
+    /* Optionally, set the height to fill the viewport */
+
+}
+
