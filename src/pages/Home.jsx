@@ -9,7 +9,6 @@ const Home = () => {
             vidSrc: "https://www.youtube.com/embed/3FlAkzE9xWc",
             buttonText:"Sign Up",
             link:"signup",
-            className: "card-vid"
         },
         {                 
             imgSrc: cs3,
@@ -17,7 +16,6 @@ const Home = () => {
             description:"Welcome to ClaimSaver+ - We specialize in providing assistance and support to individuals who have been involved in no-fault motor vehicle collisions. By completing our questionnaire, our advanced algorithm generates personalized recommendations on how to navigate your claim efficiently, saving you from the expensive fees associated with hiring an attorney. At ClaimSaver+, we understand the stress and confusion that can arise after an accident. That's why we are committed to providing personalized attention and reliable services to our clients. Whether you need help with medical bills, property damage, or negotiating a fair settlement, we've got you covered.",
             buttonText:"Learn More",
             link:"cardPage",
-            className: "card-info",
         },
         { 
             imgSrc: cs3, 
@@ -46,15 +44,15 @@ const Home = () => {
     ];
 
     return (
-        <div className="container text-center cardContainer" style={{ marginTop: "2rem"}}>
+        <div className="container text-center cardContainer">
             <div className="row">
-
+                <h1 className="col-md-12 welcomeText">Welcome to ClaimSaver+</h1>
                 <div className="col-md-6 d-flex justify-content-center align-items-center">
                     <Card
+                        className="cardVid"
                         vidSrc={cardsData[0].vidSrc}
                         buttonText={cardsData[0].buttonText}
                         link={cardsData[0].link}
-                        className="vidSrcCard"
                     />
                 </div>
 
@@ -69,7 +67,7 @@ const Home = () => {
                     />
                 </div>
             </div>
-            <h1 className="services-title">Our comprehensive services include:</h1>
+            <h1 className="col-md-12">Our comprehensive services include:</h1>
             <div className="row">
                 {cardsData.slice(2).map((card, index) => (
                     <div className="col-md-4" key={index}>
