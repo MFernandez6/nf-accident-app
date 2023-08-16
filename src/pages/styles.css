@@ -19,3 +19,11 @@
 .welcomeText {
   padding-bottom: 5%;
 }
+
+.form-group {
+  padding: 5px;
+}
+
+.smallCard {
+  height: 1000%;
+}
